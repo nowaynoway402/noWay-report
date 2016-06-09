@@ -1,0 +1,55 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil }Executive Summary}{i}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {subsection}{\numberline {1.1}Team Members}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {1.2}Team Name}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {1.3}Team Logo}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {2}Problem statement}{4}
+\contentsline {subsection}{\numberline {2.1}Project's topic description}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {2.2}Problem recognition}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Questionnaires}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Speaking with disabled people}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsubsection}{\numberline {2.2.3}Making own experiments}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {2.3}Possible solutions}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}Volunteering}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {2.3.2}Helpline}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {2.3.3}Map of the university}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {2.4}Final solution}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {section}{\numberline {3}Application project and implementation}{7}
+\contentsline {subsection}{\numberline {3.1}Preliminaries}{7}
+\contentsline {subsection}{\numberline {3.2}Tools}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {3.3}Application components}{9}
+\contentsline {subsubsection}{\numberline {3.3.1}Main menu}{9}
+\contentsline {subsubsection}{\numberline {3.3.2}Map}{9}
+\contentsline {subsubsection}{\numberline {3.3.3}Help and About}{9}
+\contentsline {subsection}{\numberline {3.4}Implementation}{9}
+\contentsline {subsubsection}{\numberline {3.4.1}Activities}{9}
+\contentsline {subsubsection}{\numberline {3.4.2}Map algorithm}{9}
+\contentsline {subsubsection}{\numberline {3.4.3}Layout}{9}
+\contentsline {section}{\numberline {4}Conclusions}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {4.1}Conclusions concerning solution}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsection}{\numberline {4.2}Conclusions concerning team building}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {section}{\numberline {5}Recommendations}{11}
+\contentsline {paragraph}{}{11}
