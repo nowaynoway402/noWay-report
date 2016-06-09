@@ -36,20 +36,22 @@
 \contentsline {subsection}{\numberline {3.3}Application components}{9}
 \contentsline {subsubsection}{\numberline {3.3.1}Main menu}{9}
 \contentsline {subsubsection}{\numberline {3.3.2}Map}{9}
-\contentsline {subsubsection}{\numberline {3.3.3}Help and About}{9}
-\contentsline {subsection}{\numberline {3.4}Implementation}{9}
-\contentsline {subsubsection}{\numberline {3.4.1}Activities}{9}
-\contentsline {subsubsection}{\numberline {3.4.2}Map algorithm}{9}
-\contentsline {subsubsection}{\numberline {3.4.3}Layout}{9}
-\contentsline {section}{\numberline {4}Conclusions}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {subsection}{\numberline {4.1}Conclusions concerning solution}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {4.2}Conclusions concerning team building}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {section}{\numberline {5}Recommendations}{11}
-\contentsline {paragraph}{}{11}
+\contentsline {subsubsection}{\numberline {3.3.3}Help and About}{12}
+\contentsline {subsection}{\numberline {3.4}Implementation}{12}
+\contentsline {subsubsection}{\numberline {3.4.1}Activities}{12}
+\contentsline {subsubsection}{\numberline {3.4.2}Map algorithm}{12}
+\contentsline {subsubsection}{\numberline {3.4.3}Layout}{12}
+\contentsline {section}{\numberline {4}Conclusions}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {4.1}Conclusions concerning solution}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {4.2}Conclusions concerning team building}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {section}{\numberline {5}Recommendations}{14}
+\contentsline {paragraph}{}{14}

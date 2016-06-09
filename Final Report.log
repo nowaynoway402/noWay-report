@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.2)  9 JUN 2016 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.2)  9 JUN 2016 19:14
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
@@ -222,28 +222,41 @@ File: "API23".png Graphic file (type png)
  <use "API23".png>
 Package pdftex.def Info: "API23".png used on input line 114.
 (pdftex.def)             Requested size: 390.0pt x 146.10963pt.
- [8 <./API18.png>] [9 <./API23.png>]
-Overfull \hbox (5.51395pt too wide) in paragraph at lines 165--171
+ [8 <./API18.png>] <"Map initial state".png, id=43, 1084.05pt x 1927.2pt>
+File: "Map initial state".png Graphic file (type png)
+
+<use "Map initial state".png>
+Package pdftex.def Info: "Map initial state".png used on input line 127.
+(pdftex.def)             Requested size: 250.93842pt x 446.09914pt.
+ [9 <./API23.png>]
+<"Map with drawn path".png, id=48, 1084.05pt x 1927.2pt>
+File: "Map with drawn path".png Graphic file (type png)
+
+<use "Map with drawn path".png>
+Package pdftex.def Info: "Map with drawn path".png used on input line 135.
+(pdftex.def)             Requested size: 250.93842pt x 446.09914pt.
+ [10 <./Map initial state.png>] [11 <./Map with drawn path.png>]
+Overfull \hbox (5.51395pt too wide) in paragraph at lines 180--186
  [] \OT1/cmr/m/n/12 Our pur-pose to pre-pare tracks avail-able for the dis-able
 d peo-ple was achieved.
  []
 
-[10] [11] [12] ("Final Report.lof")
+[12] [13] [14] [15] ("Final Report.lof")
 \tf@lof=\write4
 \openout4 = `"Final Report.lof"'.
 
- [13]
-Overfull \hbox (48.80508pt too wide) in paragraph at lines 241--243
+ [16]
+Overfull \hbox (48.80508pt too wide) in paragraph at lines 256--258
 []\OT1/cmr/m/n/12 Android Stu-dio User Guide \OT1/cmr/m/it/12 https://developer
 .android.com/studio/intro/index.html 
  []
 
-[14] ("Final Report.aux") ) 
+[17] ("Final Report.aux") ) 
 Here is how much of TeX's memory you used:
- 1590 strings out of 493335
- 22388 string characters out of 3139261
- 83559 words of memory out of 3000000
- 5115 multiletter control sequences out of 15000+200000
+ 1602 strings out of 493335
+ 22695 string characters out of 3139261
+ 83577 words of memory out of 3000000
+ 5125 multiletter control sequences out of 15000+200000
  9155 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,23p,1009b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -252,9 +265,9 @@ onts/cm/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Final Report.pdf" (16 pages, 267131 bytes).
+Output written on "Final Report.pdf" (19 pages, 813555 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

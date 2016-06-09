@@ -102,17 +102,17 @@ As a solution we decided to make an application, that will show the easiest root
 % Witek, Znajdowanie mapy, najłatwiejszej drogi, nasze założenia, połączenie z netem
 \subsection{Tools}
 \paragraph{} The tool we took advantage of to create and develop our application is Android Studio, the official Integrated Development Environment for Android apps. This IDE is based on IntelliJ IDEA by JetBrains. During our semester classes the part of our group worked in this environment, that is the main reason for our choice. In addition, the interface is very intuitive and some features can be added only by a few mouse clicks. It also provides the very useful mode, which is debugging on the connected device. It is significantly more convenient during checking gestures and touch responses.
-\paragraph{} The decision of making an application for Android devices implicated the choice of programming language. The official language for Android development is Java. It is an object oriented language, which, according to Oracle, is the most used one in the world. What is more, it was derived from C++, which we were learning from our first days at university. Consequently, we had some basics to get familiar with this language during the whole semester.
+\paragraph{} The decision of making an application for Android devices implicated the choice of programming language. The official language for Android development is Java. It is an object oriented language, which, according to Oracle, is the most used one in the world. What is more, it was derived from C++, which we have been learing since our first days at university. Consequently, we had some basics to get familiar with this language during the whole semester.
 \paragraph{} The next important issue was the choice of minimum Software Development Kit (SDK) for our application. It was one of the most essential parts of the project as this determined amount of features and target devices. The higher the Application Programming Interface (API), the more features, but less target devices the application has. As our project is not taking advantage of the most modern technologies and solutions, we decided to concentrate on availability. As a result, the minimum SDK for our project is API 18: Android 4.3 (Jelly Bean). It means that our application will run on approximately 76.9\% devices that are active on the Google Play Store. 
 On the other hand, if we chose API 23: Android 6.0 (Marshmallow), the application would run on only approximately 4.7\% devices. This data is provided by "Create New Project" dialog window in Android Studio, what can be noticed on the figures below.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{"API18".png}
-\caption{API18 option}
+\caption{API18 minimum SDK}
 \label{fig:API18}
 \end{figure}
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{"API23".png}
-\caption{API23 option}
+\caption{API23 minimum SDK}
 \label{fig:API23}
 \end{figure}
 
@@ -121,7 +121,22 @@ On the other hand, if we chose API 23: Android 6.0 (Marshmallow), the applicatio
 \subsubsection{Main menu}
 %Malwina
 \subsubsection{Map}
-%Kamil
+\paragraph{} This is the main component of the application. This part consists of the map view and user interface above with two select boxes and "Find Path" button. The initial state of that module is presented in the figure below.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"Map initial state".png}}
+\caption{Map initial state}
+\label{fig:MapInitial}
+\end{figure}
+
+\paragraph{} After choosing the points, the application displays path on a map alongside with the distance and approximate time needed to walk through the path. The exemplary application output after this operation is shown below.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"Map with drawn path".png}}
+\caption{Map with a specific path}
+\label{fig:MapPath}
+\end{figure}
+ 
 \subsubsection{Help and About}
 %Witek
 
