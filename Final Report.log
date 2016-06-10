@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.2)  9 JUN 2016 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.2)  10 JUN 2016 01:26
 entering extended mode
 **"./Final Report.tex"
 ("Final Report.tex"
@@ -140,7 +140,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Missing number, treated as zero.
 <to be read again> 
                    \hfil 
-l.16 \end{titlepage}
+l.19 \end{titlepage}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -163,31 +163,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
  [2] <"logo fire".png, id=18, 1051.93pt x 1051.93pt>
 File: "logo fire".png Graphic file (type png)
  <use "logo fire".png>
-Package pdftex.def Info: "logo fire".png used on input line 57.
+Package pdftex.def Info: "logo fire".png used on input line 60.
 (pdftex.def)             Requested size: 390.0pt x 389.9945pt.
 
-Underfull \hbox (badness 1184) in paragraph at lines 56--58
+Underfull \hbox (badness 1184) in paragraph at lines 59--61
 \OT1/cmr/m/n/12 is con-sid-ered by us as a sym-bol of power and strength. In ad
 -di-
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 56--58
+Underfull \hbox (badness 1668) in paragraph at lines 59--61
 \OT1/cmr/m/n/12 ple with mo-bil-ity im-pair-ments should be like fire, they sho
 uld not
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 56--58
+Underfull \hbox (badness 1270) in paragraph at lines 59--61
 \OT1/cmr/m/n/12 be afraid of any ob-sta-cles and over-come them. Due to that fa
 ct,
  []
@@ -197,46 +197,46 @@ Overfull \vbox (5.29112pt too high) has occurred while \output is active []
 
 
 [3 <./logo fire.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
 [4] [5] [6] <"API18".png, id=34, 1068.99374pt x 400.49625pt>
 File: "API18".png Graphic file (type png)
  <use "API18".png>
-Package pdftex.def Info: "API18".png used on input line 109.
+Package pdftex.def Info: "API18".png used on input line 112.
 (pdftex.def)             Requested size: 390.0pt x 146.10963pt.
 
 [7] <"API23".png, id=38, 1068.99374pt x 400.49625pt>
 File: "API23".png Graphic file (type png)
  <use "API23".png>
-Package pdftex.def Info: "API23".png used on input line 114.
+Package pdftex.def Info: "API23".png used on input line 117.
 (pdftex.def)             Requested size: 390.0pt x 146.10963pt.
  [8 <./API18.png>] <"Map initial state".png, id=43, 1084.05pt x 1927.2pt>
 File: "Map initial state".png Graphic file (type png)
 
 <use "Map initial state".png>
-Package pdftex.def Info: "Map initial state".png used on input line 127.
+Package pdftex.def Info: "Map initial state".png used on input line 130.
 (pdftex.def)             Requested size: 250.93842pt x 446.09914pt.
  [9 <./API23.png>]
 <"Map with drawn path".png, id=48, 1084.05pt x 1927.2pt>
 File: "Map with drawn path".png Graphic file (type png)
 
 <use "Map with drawn path".png>
-Package pdftex.def Info: "Map with drawn path".png used on input line 135.
+Package pdftex.def Info: "Map with drawn path".png used on input line 138.
 (pdftex.def)             Requested size: 250.93842pt x 446.09914pt.
  [10 <./Map initial state.png>] [11 <./Map with drawn path.png>]
-Overfull \hbox (5.51395pt too wide) in paragraph at lines 180--186
+Overfull \hbox (5.51395pt too wide) in paragraph at lines 183--189
  [] \OT1/cmr/m/n/12 Our pur-pose to pre-pare tracks avail-able for the dis-able
 d peo-ple was achieved.
  []
@@ -246,7 +246,7 @@ d peo-ple was achieved.
 \openout4 = `"Final Report.lof"'.
 
  [16]
-Overfull \hbox (48.80508pt too wide) in paragraph at lines 256--258
+Overfull \hbox (48.80508pt too wide) in paragraph at lines 259--261
 []\OT1/cmr/m/n/12 Android Stu-dio User Guide \OT1/cmr/m/it/12 https://developer
 .android.com/studio/intro/index.html 
  []
@@ -265,7 +265,7 @@ onts/cm/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Final Report.pdf" (19 pages, 813555 bytes).
+Output written on "Final Report.pdf" (19 pages, 813619 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
