@@ -96,7 +96,7 @@ As a solution we decided to make an application, that will show the easiest root
 \paragraph{}After visiting the whole university and its buildings on wheelchairs we have pretty wide knowledge about the routes going through it. That is why the map if our university, came to our heads as the next solution. Unfortunately this problem must have been also rejected. If we decided to take a map as a form of a book it would be enormously heavy and insufficient to include all our maps. We could not imagine driving with one hand holding the map or changing the page. The other option in this place which is a huge map which is even worse than the previous one. The map lying on the knees of disabled person may fall on the ground, screw in the wheel and cause many more dangerous problems. Including all routes in one place would also cause many problems for the student with clarity of the map. 
 
 \subsection{Final solution}
-\paragraph{}After many hours of sitting and thinking about a perfect solution we all came up to one thing that may seem perfect. This solution is a mobile application so storing all the maps in one, single,  easily accessible place. As it was mentioned before all the students own a mobile phone, this device can be easily operated with one hand, it can lie on our knees, be in our pocket and it still can be used. Students may use it whenever they want without asking others for help. The only requirement is internet connection.  Student will just have to choose the initial and final destination and then the map with the route will be shown. The route shown is the best way for people moving on wheelchairs with the smallest amount of irregularity of terrain. The application is adapted for both the newest and the older version of mobile phones so if some students do not possess newest mobile device there is no worry because the application will be still working. 
+\paragraph{}After many hours of sitting and thinking about a perfect solution we all came up to one thing that may seem perfect. This solution is a mobile application to store all the maps in one, single,  easily accessible place. As it was mentioned before all the students own a mobile phone, this device can be easily operated with one hand, it can lie on our knees, be in our pocket and it still can be used. Students may use it whenever they want without asking others for help. The only requirement is internet connection.  Student will just have to choose the initial and final destination and then the map with the route will be shown. The route shown is the best way for people moving on wheelchairs with the smallest amount of irregularity of terrain. The application is adapted for both the newest and the older version of mobile phones so if some students do not possess newest mobile device there is no worry because the application will be still working. 
 
 
 \section{Application project and implementation}
@@ -149,6 +149,12 @@ On the other hand, if we chose API 23: Android 6.0 (Marshmallow), the applicatio
 % Malwina, tu wrzucamy wszystkie 5 activities i je opisujemy
 \subsubsection{Map algorithm}
 % Kamil Kuba
+
+\paragraph{}
+In order to have the route calculated, user is supposed to choose both start and destination points. Buildings with their coordinates in our application are storred in array list. Depending on what Buildinsg the users will choose from the list, coordinates of theese places will be choosen. We have decided to use Google Maps, beacuse we want to have the best quality of paths and maps. However it is necesarry to possess a Google Api Key in order to use these maps.
+
+Algorithm of tracing the route works in a following way: when start point and destination are choosen, we create an Url address which consist of prefix: "https://maps.googleapis.com/maps/api/directions/json?", proper (in our case walking) mode, origin and destination coordinates and finally our Google Api Key. Then we calculate distance and duration based on mode and both locations and finally draw simple google polylines on our map.\\
+Then we can zoom in or zoom out the root.
 \subsubsection{Layout}
 % Malwina
 
