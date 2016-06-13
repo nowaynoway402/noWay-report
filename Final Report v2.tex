@@ -1,0 +1,452 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\begin{document}
+
+
+% Title Page
+\begin{titlepage}
+\title{University with no mobility barriers}
+\date {}
+\author{Team number 40}
+\maketitle
+\pagenumbering{empty}
+\vfill
+\raggedright
+Supervisor: \\ Agnieszka Wosiak
+\end{titlepage}
+
+% Summary section
+
+\section*{Executive Summary}
+\addcontentsline{toc}{section}{\numberline{}Executive Summary}
+\paragraph{}University with no mobility barriers is a common topic since the moment when technology allowed disabled people to comfortably move around. In the past people with mobility impairments were forced to stay at home or at any other place. Moving around for them without help was nearly impossible. They could not get educated or get any continuous job. Technology has significantly moved forward and nowadays those people are able to be dynamic.
+
+New options have been slowly introduced and life of disabled ones become easier. They started moving around, visiting the world, and getting educated because finally they were able to go to school and move in that place without others people help. It all seems to be beautiful, but there are still some problems that for able-bodied people seem to be abstract  and sometimes are not even considered as problem that for disabled ones are impossible to overcome or can be defeated only by others help. Those problems are for example high curbstones or bumpy road/pavement. Unfortunately not all of them can be changed because it demands lots of changes in infrastructure and high costs that are impossible to reach. On the other hand there is a possibility that after using some methods we are able to make life of such people easier. 
+
+After many hours of sitting, thinking finding new ideas our team decided to make an experiment which was riding on a wheelchair to feel for at least a moment like those people to be able to find a solution to their problem. When we ended the experiment to our mind came an idea to find the best way to move from one building to another. This was the beginning that moved us to making a mobile application that would show the most efficient route between the buildings. The smallest curbs, flat route and the best driveways are included. 
+
+The question was, if our mobile programming skills can help people with mobility impairments. We are sure that our final solution provides the answer and  makes to a certain extent the Lodz University of Technology more disabled-friendly. However, in this semester we have just started mobile programming. Although our application is rather simple, we are deeply convinced that it has great potential for further development.
+
+\pagenumbering{roman}
+\cleardoublepage
+
+% Table of contents
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+
+% Introduction
+\pagenumbering{arabic}
+\setcounter{page}{2}
+\section{Introduction}
+In this section there is provided information about the team and its members, its supervisor, the roots of the team name and explanation of the logo.
+\subsection{Team Members}
+\paragraph{} Our team consists of four people. All of us are second year students of Information Technology at International Faculty of Engineering, which is part of Lodz Univeristy of Technology.
+We are connected by the common goal, which is stated in the following part of the report. To achieve this goal, we were supervised during this semester by Ph.D Agnieszka Wosiak. The team members are:
+\begin{itemize}
+\item Malwina Kruk
+\item Witold Derach
+\item Kamil Glonek
+\item Jakub Kar\l{}o
+\end{itemize}
+
+%Name
+\subsection{Team Name}
+\paragraph{} We decided to call our team "No Way? No Way!" The name reflects us and our attitude to the task. We strongly believe, that there is no problem which has no way to solve it. Furthermore, the name indicates that people with mobility impairments should not limit themselves. This issue will be explained in the problem statement section.
+
+\newpage
+%Logo
+
+\begin{figure}[H]
+\subsection{Team Logo}
+\paragraph{}The logo presented below is a mixture of wheelchair and flame. Flame is considered by us as a symbol of power and strength. In addition, fire destroys any obstacle it encounters. In our opinion, people with mobility impairments should be like fire, they should not be afraid of any obstacles and overcome them. Due to that fact, we decided to replace the standard wheel with previously mentioned flame. The red colour, which dominates the logo, is commonly associated with energy, that is the reason for choosing it as primary colour.
+\includegraphics[width=\textwidth]{"logo fire".png}
+\caption{"No Way? No Way!" Team Logo}
+\label{fig:logo}
+\end{figure}
+
+%Problem statement
+\section{Problem statement}
+\paragraph{}
+In this section our problem is described in detail, alongside with the solutions considered. There is also presented our final approach.
+\subsection{Project's topic description}
+\textbf{University with no mobility barriers?}
+\paragraph{}The past years have seen an influx of mobility apps with the aim of increasing and improving people's personal mobility. More people than ever use their smartphones to find information on how to move from A to B, which means of transport they should use etc.. However, how does this work for people with a mobility impairment? Can mobility apps provide an alternative for people using a wheelchair or a walking frame, or even people with a stroller ar loads of luggage?
+\paragraph{}
+People with a mobility impairment need more information than usually provided by mobility apps. And because many apps do not provide this additional information, thay cannot use them. That is why we decided to handle this situation and to find a solution that may be helpful to disabled people.
+As a solution we decided to make an application, that will show the easiest root (root that has no curbs or trees in the middle of sidewalks) when traveling across our university. 
+
+
+
+%From Witek
+\subsection{Problem recognition}
+\paragraph{}Our problem could be analyzed in many ways. This led us to a brainstorming after which we decided to use some of the easy-to-reach methods to find a solution. Our group decided that we need to get at least basic knowledge about every area. 
+\subsubsection{Questionnaires}
+\paragraph{}The first option was sending questionnaires to BON. Of course we met some difficulties. The first one was whether BON would be kind and sent it to the disabled people studying at our university. After several attempts the decided to help us with our problem and obliged themselves to send the queries to all students registered in BON. Unfortunately we had to formulates proper questions which will be easy to understand for everyone and not abusive. Many time spend on that part of the problem give us the expected result. Well prepared questionnaire with easy to understand questions. 
+\subsubsection{Speaking with disabled people}
+\paragraph{}Sending questionnaires was not enough for us, we were in need of getting some more information. Our group decided to divide ourselves by half and ask accidentally met people on the street with moving impairment about their challenges that they have to face every day when it comes about moving around the town. The answers were surprisingly decent and full of information about things that we did not take care of before. Before starting our own experiments we would not even think that segments like heavy or only wrongly build-in door could be a tough to overcome obstacle. Some respondents were even keen on showing us how it looks like in practice. We were moving with them around town to experience all the things they were talking about. 
+\subsubsection{Making own experiments}
+\paragraph{}As a group of future engineers and people curious about the world, we knew that one day we will do something unbelievable. Soon an option of renting a wheelchair arose. We knew that it will be unique. We made our minds as soon as possible to go and take it. For the next two days we have been driving on the wheelchairs through our university testing all the routes, pavements, entrances and facilities which have been set according to all disabled students at our university. The special elevators are a great and comfortable solution, but unfortunately not all of the buildings can have it. During using the wheelchair we have attached a gyroscope to see the changes in the height in level of area.   
+
+\subsection{Possible solutions}
+\paragraph{}When all our research has been completed. We decided to start thinking about a possible solution. As a creative group we had millions of ideas per minute but only small amount of them are worth mentioning. 
+
+\subsubsection{Volunteering}
+\paragraph{}The first idea that came to our minds was creating a small army of volunteers that will be ready to help students in need every time. Those students would receive special clothes prepared only for them. Those clothes will make the volunteers easy recognizable. After coming up to that point we saw a small bug that could not be fixed namely one day there may be no volunteers on our university. Each of volunteers has got an own life, other duties apart from studying. It would be rude to firstly give help and then leave people in need with nothing. Some students may forget how it was when they had to deal with problems on their own and what methods they used to overcome their problems which will make their life at university incredibly tough.
+
+\subsubsection{Helpline}
+\paragraph{}The next idea that came to our mind was a helpline. That solutions seems to be almost perfect. All students own a mobile phone and are able to call for help when such situation occurs. It is more effective when it comes to getting help, much faster, easily accessible and more effective. By using phone they may call some volunteers when such situation appears. On the other hand, the helpline may have similar problems with functioning as volunteering because, every student has got his own life. They may be having classes, driving a car, doing shopping so answering the call would be again impossible. That is why this option also has not been chosen by us. 
+
+\subsubsection{Map of the university}
+\paragraph{}After visiting the whole university and its buildings on wheelchairs we have pretty wide knowledge about the routes going through it. That is why the map if our university, came to our heads as the next solution. Unfortunately this problem must have been also rejected. If we decided to take a map as a form of a book it would be enormously heavy and insufficient to include all our maps. We could not imagine driving with one hand holding the map or changing the page. The other option in this place which is a huge map which is even worse than the previous one. The map lying on the knees of disabled person may fall on the ground, screw in the wheel and cause many more dangerous problems. Including all routes in one place would also cause many problems for the student with clarity of the map. 
+
+\subsection{Final solution}
+\paragraph{}After many hours of sitting and thinking about a perfect solution we all came up to one thing that may seem perfect. This solution is a mobile application so storing all the maps in one, single,  easily accessible place. As it was mentioned before all the students own a mobile phone, this device can be easily operated with one hand, it can lie on our knees, be in our pocket and it still can be used. Students may use it whenever they want without asking others for help. The only requirement is internet connection.  Student will just have to choose the initial and final destination and then the map with the route will be shown. The route shown is the best way for people moving on wheelchairs with the smallest amount of irregularity of terrain. The application is adapted for both the newest and the older version of mobile phones so if some students do not possess newest mobile device there is no worry because the application will be still working. 
+\cleardoublepage
+
+\section{Application project and implementation}
+\paragraph{} In this section there are presented the preliminaries of application project, tools used during the implementation process, components which the application consists of and, finally, the implementation itself.
+\subsection{Preliminaries}
+\paragraph{}
+The assumption that led us during making this application was to make life of disabled students easier. Our own experiment which was driving on a wheelchair made us feel sorry for all disabled students and motivated us for further work.  We realized that all the thing we do can have positive effect on all students with walking disability.
+\paragraph{}
+Our own experiment which was driving on the wheelchair was the most useful factor when we were trying to find the best connection between the buildings. We could test several routes and decide whether it would be better to use pavement or street. It cost us lots of time and energy but we had to do it to help our colleagues feel more comfortable when moving around university.  We were able to eliminate some routes because of inconvenient surface or high pavements with no driveways. When we were choosing the best route we also took into consideration that we could use the fastest one but the fastest does not always mean the best that is why we decided to stay by our first choice which was the easiest to go through. After setting the routes we lent a wheelchair one more time to check if everything is shown correctly and to go through all path one more time. All the paths that  have been chosen can be travelled by disabled person without any help.
+\paragraph{}
+Our application is using internet connection to find the set routes between buildings. It was necessary to use it because part of our application is based on Google Maps and without it finding the way would be impossible. With this option finding the way we can move to Google Maps to use GPS to lead us through the route we are trying to defeat. This option simplifies moving because after setting the route the telephone may lie on knees of the students and the GPS will show us the actual position and the distance that is needed to overcome.
+
+
+\subsection{Tools}
+\paragraph{} The tool we took advantage of to create and develop our application is Android Studio, the official Integrated Development Environment for Android apps. This IDE is based on IntelliJ IDEA by JetBrains. During our semester classes the part of our group worked in this environment, that is the main reason for our choice. In addition, the interface is very intuitive and some features can be added only by a few mouse clicks. It also provides the very useful mode, which is debugging on the connected device. It is significantly more convenient during checking gestures and touch responses.
+\paragraph{} The decision of making an application for Android devices implicated the choice of programming language. The official language for Android development is Java. It is an object oriented language, which, according to Oracle, is the most used one in the world. What is more, it was derived from C++, which we have been learing since our first days at university. Consequently, we had some basics to get familiar with this language during the whole semester.
+\paragraph{} The next important issue was the choice of minimum Software Development Kit (SDK) for our application. It was one of the most essential parts of the project as this determined amount of features and target devices. The higher the Application Programming Interface (API), the more features, but less target devices the application has. As our project is not taking advantage of the most modern technologies and solutions, we decided to concentrate on availability. As a result, the minimum SDK for our project is API 18: Android 4.3 (Jelly Bean). It means that our application will run on approximately 76.9\% devices that are active on the Google Play Store. 
+On the other hand, if we chose API 23: Android 6.0 (Marshmallow), the application would run on only approximately 4.7\% devices. This data is provided by "Create New Project" dialog window in Android Studio, what can be noticed on the figures below.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{"API18".png}
+\caption{API18 minimum SDK}
+\label{fig:API18}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{"API23".png}
+\caption{API23 minimum SDK}
+\label{fig:API23}
+\end{figure}
+
+\subsection{Application components}
+\paragraph{}The properly designed application should consist of some components. As during this semester we were learing this approach, our application is also divided into components. In the following chapters, each of them is precisely described.
+\cleardoublepage
+\subsubsection{Main menu}
+\paragraph{}
+Initial state of an application includes main menu where it starts.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=200px]{"menu".jpg}}
+\caption{Main menu}
+\label{fig:menuComponent}
+\end{figure}
+
+There is logo of our team visible at the top of the screen. Below programmed buttons ease navigation inside the application.
+Each button leads to the specific component of the program: map, help and about section.
+
+\subsubsection{Map}
+\paragraph{} This is the main component of the application. This part consists of the map view and user interface above with two select boxes and "Find Path" button. The initial state of that module is presented in the figure below.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=200px]{"Map initial state".png}}
+\caption{Map initial state}
+\label{fig:MapInitial}
+\end{figure}
+
+\paragraph{} After choosing the points, the application displays path on a map alongside with the distance and approximate time needed to walk through the path. The exemplary application output after this operation is shown below.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=200px]{"Map with drawn path".png}}
+\caption{Map with a specific path}
+\label{fig:MapPath}
+\end{figure}
+ 
+\subsubsection{Help and About}
+\paragraph{}
+The Help and About buttons play a significant role in our application. After pressing the help button we get the information about guiding the application, so if someone did not know how to use it, everything is clearly explained and there should be no more problems with that. We decided to include some important contact in case of any problems. There is a number and e-mail to BON and our group e-mail so if something goes wrong, the students will be able to get in touch with someone who can help them.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"help".png}}
+\caption{Help screen}
+\label{fig:help}
+\end{figure}
+
+The About button possess plain text that tells us about the reasons for making the application. 
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"about".png}}
+\caption{About screen}
+\label{fig:about}
+\end{figure}
+
+To create both Help and About, design option in Android Studio was used. It is very convenient and intuitive method that we were able to use. It led us shorten the time of our job and made the job more efficient. We were able to make the changes incredibly fast and adjust every part as we wanted. It contains many useful parts that can be used in every part of the application. 
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"design".png}}
+\caption{Android Studio - Design mode}
+\label{fig:design}
+\end{figure}
+
+If there occur anything that we would like to change, the text option that is connected to it allows us to change all the parts by using commands that are used in our program. The commands are very intuitive too and the person working in this program do have to be the master of programming to be able to create something on its own. 
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"text".png}}
+\caption{Android Studio - Text mode}
+\label{fig:textMode}
+\end{figure}
+
+\subsection{Implementation}
+\paragraph{}
+An application written for android-powered devices consists of various files. The functions and operating schemas are enclosed in activities files. Created in Java language, they use special android libraries and override their methods. The applications, however, need some other components. Layouts structuring the appearance of an application, and manifest presenting essential information about application to the system are xml files.
+\paragraph{}
+We would like to feature main components of the program paying close attention to the means of implementation and code structure.
+
+\subsubsection{Activities}
+\paragraph{}
+Activities are main program components. They establish application screens which are instruments of communication between user and system. Activities display specific content and can react to user's actions, such as tapping the screen, typing message, etc.
+``No way? No way!'' application introduces 5 activities:
+
+\begin{itemize}
+	\item Welcome
+	\item MainActivity
+	\item MapsActivity
+	\item HelpActivity
+	\item AboutActivity
+\end{itemize}
+
+Each activity possess specific method \\
+
+\centerline{\textit{protected void onCreate\(Bundle savedInstanceState\)\{\};}}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"oncreate".jpg}}
+\caption{onCreate(Bundle savedInstanceState)() method}
+\label{fig:onCreate}
+\end{figure}
+
+The function is called when the activity is created. There goes most of the initialisation, like method:
+\textit{setContentView\(R.layout.activity\_layout\);} 
+which sets composition and appearance of the screen drawing the specific layout file (in this case activity\_layout.xml). \\
+The \textit{Bundle savedInstanceState} parameter is usually received from method: 
+\textit{onSaveInstanceState\(\)} 
+Saved bundle stores the state of the application in a bundle. If the activity needs to be recreated it is passed as a parameter to the \textit{onCreate} method.
+\cleardoublepage
+
+\paragraph{}
+\underline{Welcome}\\
+This activity is called at the very beginning of application launching. It is used as a startup screen:
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"full_logo".png}}
+\caption{Startup screen}
+\label{fig:fullLogo}
+\end{figure}
+
+It is introduced in Android Manifest (in file AndroidManifest.xml) as a launching screen. Of course, MainActivity is used as the main screen and menu for the program, although, this manipulation allows to display graphics while loading the application.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"manifest".JPG}}
+\caption{AndroidManifest.xml configuration}
+\label{fig:manifest}
+\end{figure}
+
+As one can see in the code below, Welcome activity extends AppCompatActivity base class. Owing to this fact, we can take advantage of  the support library action bar features.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"welcome".JPG}}
+\caption{Welcome activity implementation}
+\label{fig:welcome}
+\end{figure}
+
+Then we create Thread providing the startup screen. All of this code is embraced with try-catch block in case of exception.
+In a finally block we specify the order of screen succession. For this process, there is new Intent created.
+In a constructor first activity is indicated and the one following after it. By this we will obtain startup screen and then main menu.
+
+\paragraph{}
+\underline{MainActivity}\\
+This activity serves as main menu of the application.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"main".JPG}}
+\caption{MainActivity implementation}
+\label{fig:menuImplementation}
+\end{figure}
+
+It consists of \textit{onCreate} method and a few functions directly related with buttons' actions.
+Each of the remaining blocks of code generates a new intent directing to activity of a specific screen. \\
+In activity\_main.xml file where each button is described these activities mentioned above are connected with their button by command:
+\textit{android:onClick="method"}
+
+\paragraph{}
+\underline{MapsActivity}\\
+A screen generated with usage of this activity shows map and panel where one can type their destination. Its methods and algorithm used to prepare a path are described in the section ``Map algorithm''.
+
+\paragraph{}
+\underline{HelpActivity and AboutActivity}\\
+Both of these activities manage layouts of their layouts.
+ 
+
+\subsubsection{Map algorithm}
+
+\paragraph{}
+In order to have the route calculated, user is supposed to choose both start and destination points. Buildings with their coordinates in our application are storred in array list. Depending on what Buildinsg the users will choose from the list, coordinates of theese places will be choosen. We have decided to use Google Maps, beacuse we want to have the best quality of paths and maps. However it is necesarry to possess a Google Api Key in order to use these maps.
+
+Algorithm of tracing the route works in a following way: when start point and destination are choosen, we create an Url address which consist of prefix: "https://maps.googleapis.com/maps/api/directions/json?", proper (in our case walking) mode, origin and destination coordinates and finally our Google Api Key. Then we calculate distance and duration based on mode and both locations and finally draw simple google polylines on our map.\\
+Then we can zoom in or zoom out the root.
+
+\subsubsection{Layout}
+\paragraph{}
+The application uses different layouts. These define User Interfaces for each screen/activity.
+Our program contains these layouts:
+\begin{itemize}
+	\item activity\_welcome
+	\item activity\_main
+	\item activity\_maps
+	\item activity\_help
+	\item activity\_about
+\end{itemize}
+
+Each of them implements widgets, interactive or non-interactive components. The example of such can be button:
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=250px]{"button".JPG}}
+\caption{Button layout}
+\label{fig:button}
+\end{figure}
+
+This set of attributes specify the appearance, location on the screen and behaviour of a button. Besides the mentioned, the line: \textit{android:text\="@string/mapButton"} establishes the text displayed on the button. The message is available by the reference to the other string.xml file where are stored values of different alphanumeric parameters.
+
+By means of the same and similar features other widgets and components in the application are created:
+\begin{itemize}
+	\item TextView
+	\item ImageView
+	\item Spinner
+	\item EditText
+	\item ScrollView
+\end{itemize}
+\cleardoublepage
+
+%From Malwina
+\section{Conclusions}
+\paragraph{}
+The problem defined at the beginning of this report sounded ``University with no mobility barriers''.
+In the consequence we developed the solution in the shape of the mobile application.
+
+However, the main goal of the project, apart from presenting tangible product which answers the needs of the target group, was seeking for ways to do this and establishing reliable relationship within our team.
+The conclusions and our resultant estimation of closing outcome are contained in the sections below.
+
+\subsection{Conclusions concerning solution}
+\paragraph{}
+The problem defined challenged us to deal with the daily difficulties of disabled people.
+After broad research and strict selection of such, our team decided to create a specific tool.
+The mobile application cannot eliminate these handicaps, although, it may provide ways to overcome them.
+
+\paragraph{}
+The application, as presumed, supply a user with an interactive map connected to the Internet.
+With this component one can:
+\begin{itemize}
+	\item locate any building on both of the University campuses,
+	\item find the most suitable entry for their needs (program marks entries with driveway for the disabled),
+	\item choose the easiest path between two points.
+\end{itemize}
+The aspects mentioned were included into assumed results.
+The program facilitates movements within and around campuses of Lodz University of Technology.
+Algorithm contained in application structure calculates specific routes enabling traveling.
+
+\paragraph{}
+Our purpose to prepare tracks available for the disabled people was achieved.
+The application creates paths on the basis of data marking places that may produce trouble during passage.
+Proper section of track will not cross any of these points and will lead a user the path of the smallest fluctuation in height.
+Light and legible layout eases manipulating map component and reading the instructions from the screen.
+Large buttons allow comfortable operating of the whole application.
+We also supplied users with special content helping them to learn this new tool.
+
+Section ``Help'' shows anyone how to move inside the application and how to initiate the process of path computing.
+There is also a phone number to the Diabled People Office, helping handicaped students with any problems.
+Under any circumstances a student in need can contact this centre.
+In any other matters and issues involving application service user will find contact information to the authors.
+
+This application was prepared with great diligence.
+It fulfils the assumed guidelines and creates a useful instrument in the aspect of student's life.
+
+\subsection{Conclusions concerning team building}
+\paragraph{}
+The main purpose of this project and side effect of creating the solution was developing soft skills.
+We were to learn and adopt abilities to cooperate effectively within a team.
+Working on the product resulted in better understanding basic mechanisms standing behind establishing good relationships.
+
+\paragraph{}
+We come to learn:
+\begin{itemize}
+	\item active listening,
+	\item ability to resolve conflicts,
+	\item ability to reach compromise,
+	\item fair distribution of work,
+	\item supporting the team-mates.
+\end{itemize}
+
+\paragraph{}
+Different opinions, especially when analysing the problem and possible solutions, brought us to the point where negotiations and peaceful discussion was needed.
+By means of such situations we worked out schemas to properly achieve consensus.
+Apart from absorbing the knowledge we managed to find our own ways helping us to cooperate.
+We agreed over the fact that our personal and specially adapted rules, and by this created relationship, is far better than strictly imposed structure.
+With a great labour and a lot of willpower we decided to rely collaboration on our friendship.
+Trying to artificially create working atmosphere with stiff system of relations would only damage the greatest advantage of our team which is personal, emotional bond.
+
+Equality, peace and trail how to create a good team made us an successful group.
+Our skills and hard work were only the effect of effort done to build a team.
+
+\section{Recommendations}
+\paragraph{}
+ For the future of mobile application ``No way? No way!'' we want to present our recommendations and possible ways of development.
+These suggestions when implemented will not affect any functionality of present program.
+They will only improve activity and expand potential features.
+
+\begin{itemize}
+	\item There can be provided another functionality allowing to choose between the effortless path and the fast one.
+	The latter will be obtained on the basis of distance from destination.
+	In other case, this route may be calculated using time of travelling (crossroads or areas of increased traffic might extend the time of passing).
+	This solution could be convenient for people prepared for though roads or in a hurry.
+	
+	\item Prospective property is adjusting application for any device.
+	People trying to plan their trip will find it opportune to check route earlier on their PCs, MACs, etc.
+	
+	\item Any linkage between the program and other applications adding new features would be beneficial.
+	Special extensions with the map component attached to other mobile applications will only be advantageous for students and producers.
+	With this thing anyone using any program utilising maps would be able to apply our solution.
+\end{itemize}
+
+Development is a significant aspect of every product.
+Users expect it to move with the evolution of technology.
+To remain useful product must apply new features and deal with possible mistakes or problems.
+
+Due to consistency and transparency of the application future development is possible.
+Owing to Internet connection sending patches, extension packs will be simple.
+The only step before is creating new functionalities.
+
+\newpage
+\listoffigures
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{androidUserGuide}
+Android Studio User Guide
+\textit {https://developer.android.com/studio/intro/index.html}
+Java Platform, Standard Edition 7, API Specification
+\textit {https://docs.oracle.com/javase/7/docs/api/}
+Google Maps APIs
+\textit {https://developers.google.com/maps/documentation/android-api/}
+XML Tutorial
+\textit {http://www.w3schools.com/xml/}
+
+
+\end{thebibliography}
+
+\end{document}
+
